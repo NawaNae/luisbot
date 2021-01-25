@@ -37,6 +37,7 @@ namespace Microsoft.BotBuilderSamples
 
             app.UseDefaultFiles()
                 .UseStaticFiles()
+                .UseWebSockets()
                 .UseRouting()
                 .UseAuthorization()
                 .UseEndpoints(endpoints =>
